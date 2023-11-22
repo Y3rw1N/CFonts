@@ -10,8 +10,9 @@ pkg add clang -y
 ``` bash
 git clone https://github.com/Y3rw1N/CFonts.git
 ```
-<h4>Please Give Execute Permissions To The Binary File</h4>
 
+<h4>make the file executable and run it</h4>
 ``` bash
-chmod +x $HOME/CFonts/bin/CFonts
+clang cfonts.cpp -o random_name
+./random_name
 ```
